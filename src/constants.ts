@@ -29,14 +29,14 @@ export enum Rounding {
   ROUND_UP
 }
 
-export const FACTORY_ADDRESS = '0xb3484570748b90F0120b11a7b079FB02d72927Be'
+export const FACTORY_ADDRESS = '0x8bAFA09A4D227B78405345E11bfD094819a50135'
 
 export const INIT_CODE_HASH_BSC = '0x9b025805045f6da539a4926f67307a9b0ab5aaccc42d3f14aaea0776a5b727ac'
 export const INIT_CODE_HASH_ETH = '0xa852da7194a3edaba2a5a4545af11dda00ca97d89e0f9934bb841dffaa964220'
 export const INIT_CODE_HASH_HECO = '0x7b9686f044376bf1a04de2e9f1dbb6c9a4fe516f7cbd89b68be801982b62f913'
 export const INIT_CODE_HASH_MATIC = '0xf523ab2e058386ecc391c92c3cda3906b9c8a50c2cca82c4f12ea030fee83af1'
 // @XXX: change this if factory was replaced
-export const INIT_CODE_HASH_OKCHAIN_TESTNET = '0x0e60c10e53473c3bbb40a8d8b9b685dbb74464f60e32dd3c1ebd46e1b264eec1'
+export const INIT_CODE_HASH_OKCHAIN_TESTNET = '0x2cc51ceca7da0bef112fb4d63c5d8655e0ce858fb2b2ac2d52b5f26443c97ddb'
 export const INIT_CODE_HASHES: InitCodeHashes = {
   [ChainId.MAINNET]: INIT_CODE_HASH_ETH,
   [ChainId.ROPSTEN]: INIT_CODE_HASH_ETH,
